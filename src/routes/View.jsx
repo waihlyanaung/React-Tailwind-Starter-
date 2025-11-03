@@ -12,11 +12,11 @@ const View = () => {
       
       
         
-        {/* <Route path="/" element={<Home />} />
+        <Route path="/" element={<Home />} />
 
         <Route path="/vowels" element={<Vowels />} />
-        <Route path="/voicechange" element={<VoiceChanges />} /> */}
-        <Route path="/" element={<CardTwoA />} />
+        <Route path="/voicechange" element={<VoiceChanges />} />
+        <Route path="/cardTwoA" element={<CardTwoA />} />
 
       </Routes>
     </>
